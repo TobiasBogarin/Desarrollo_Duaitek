@@ -1,0 +1,17 @@
+{
+  "name": "contador-pedidos",
+  "version": "1.0.0",
+  "description": "aplicacion de rendimiento",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Tobias Bogarin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.4.1",
+    "googleapis": "^91.0.0"
+  }
+}

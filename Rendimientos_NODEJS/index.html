@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Pedidos Pendientes</title>
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li><a href="./pages/Pedidos.html">Pedidos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="total-closed-container">
+    <div class="counter" id="total-closed-card">
+      <h2>TOTAL DE CERRADOS</h2>
+      <div id="total-closed" class="count">0</div>
+    </div>
+  </div>
+  <table id="closed-orders-table">
+    <thead>
+      <tr>
+        <th>Usuario</th>
+        <th>Cantidad de Cerrados</th>
+        <th>Vel. Promedio (min/paquete)</th>
+        <th>Medalla</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+<div class="counter-container" id="counter-container-1">
+  <!-- Los pedidos pendientes de la primera planilla se mostrarán aquí -->
+</div>
+<div class="counter-container" id="counter-container-2">
+  <!-- Los pedidos pendientes de la segunda planilla se mostrarán aquí -->
+</div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/script/main.js"></script>
+</body>
+</html>
